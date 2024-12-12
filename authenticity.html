@@ -3,32 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Embedded Page</title>
+    <title>Authentic Verification System</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            background-color: #f4f4f9;
+            background-color: #ffffff; /* 白色背景 */
         }
 
         h1 {
-            margin-top: 20px;
             text-align: center;
             color: #333;
+            margin: 10px 0;
+            font-size: 1.5em;
         }
 
         .iframe-container {
             width: 100%;
-            max-width: 1200px;
-            height: 55vh;
-            border: 1px solid #ccc;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            height: 90vh; /* 占据视口高度的90% */
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none; /* 移除边框 */
         }
     </style>
 </head>
@@ -37,10 +36,7 @@
     <div class="iframe-container">
         <iframe 
             src="https://app.cypheme.com/" 
-            frameborder="0" 
-            scrolling="no" 
-            title="Authentic Verification System"
-            style="width: 100%; height: 100%;">
+            title="Authentic Verification System">
             This option will not work correctly. Unfortunately, your browser does not support inline frames.
         </iframe>
     </div>
